@@ -15,3 +15,16 @@ exports.createTodo = async function (req, res) {
     res.status(500).send("server error");
   }
 };
+
+exports.editTodo = async function (req, res) {
+  try {
+    const { id } = req.params;
+    const updateTodo = await Todo.findByIdAndUpdate({ _id: id }, req.body, {
+      new: true,
+      runValidators: true,
+    });
+    res.status(200).send("updated successfully");
+  } catch {
+    res.status(500).send("server error");
+  }
+};
