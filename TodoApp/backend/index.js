@@ -11,5 +11,10 @@ app.listen(3000, (req, res) => {
   console.log("server started");
 });
 
+const cors = require("cors");
+
+app.use(cors());
+app.use(express.json());
+
 const router = require("./router/todo");
 app.use("/todos", router);
