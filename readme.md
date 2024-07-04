@@ -8,6 +8,19 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/en)
 
+## Index
+
+- [TodoApp](#todoapp)
+  - [Prerequisites](#prerequisites)
+  - [Index](#index)
+    - [Getting Started](#getting-started)
+  - [Project Structure](#project-structure)
+    - [Backend Setup](#backend-setup)
+    - [Frontend Setup](#frontend-setup)
+    - [Running the Application](#running-the-application)
+    - [Usage](#usage)
+    - [Project Details](#project-details)
+
 ### Getting Started
 
 Follow these steps to set up and run the project locally.
@@ -23,7 +36,7 @@ git clone https://github.com/yashaswinij1999/Todo-FullStack-App.git
 2. **Navigate to the Project Directory**
 
 ```
-   cd TodoApp
+   cd Todo-FullStack-App
 ```
 
 ## Project Structure
