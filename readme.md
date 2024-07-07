@@ -2,26 +2,27 @@
 
 This project is a full-stack Todo application featuring a React frontend and a Node.js backend. Follow the steps below to set up and run the project locally.
 
+## Index
+
+- [TodoApp](#todoapp)
+  - [Index](#index)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Project Structure](#project-structure)
+    - [Backend Setup](#backend-setup)
+    - [Frontend Setup](#frontend-setup)
+    - [Running the Application](#running-the-application)
+  - [Features](#features)
+  - [Project Details](#project-details)
+  - [Middleware and Controllers](#middleware-and-controllers)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/en)
 
-## Index
-
-- [TodoApp](#todoapp)
-  - [Prerequisites](#prerequisites)
-  - [Index](#index)
-    - [Getting Started](#getting-started)
-  - [Project Structure](#project-structure)
-    - [Backend Setup](#backend-setup)
-    - [Frontend Setup](#frontend-setup)
-    - [Running the Application](#running-the-application)
-    - [Usage](#usage)
-    - [Project Details](#project-details)
-
-### Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project locally.
 
@@ -96,17 +97,23 @@ The frontend development server will run on http://localhost:5173.
 - Ensure the frontend development server is running (see Frontend Setup).
 - Open your browser and navigate to http://localhost:5173 to see the Todo application.
 
-### Usage
+## Features
 
 - **Add Task** - Use the input field to enter a new task and click "Add".
 - **View Tasks** - View the list of tasks.
 - **Edit Tasks** - Click the edit icon to modify an existing task.
 - **Delete Task:** - Click the delete icon to remove a task.
 
-### Project Details
+## Project Details
 
 **Backend**
 The backend is built using Node.js and Express. It provides RESTful API endpoints to handle CRUD operations for the Todo items.
 
 **Frontend**
 The frontend is built using React and Vite. It provides a user interface to interact with the Todo items and communicates with the backend API.
+
+## Middleware and Controllers
+
+- **Express Router:** Used to define and manage routes.
+- **CORS:** Used to allow cross-origin requests.
+- **Controllers:** Handle the business logic for each route.
