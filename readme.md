@@ -37,7 +37,7 @@ git clone https://github.com/yashaswinij1999/todo-fullStack-app.git
 2. **Navigate to the Project Directory**
 
 ```
-   cd Todo-FullStack-App
+   cd todo-fullStack-app
 ```
 
 ## Project Structure
