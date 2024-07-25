@@ -31,7 +31,7 @@ Follow these steps to set up and run the project locally.
 First, clone the repository to your local machine using the following command:
 
 ```
-git clone https://github.com/yashaswinij1999/Todo-FullStack-App.git
+git clone https://github.com/yashaswinij1999/todo-fullStack-app.git
 ```
 
 2. **Navigate to the Project Directory**
