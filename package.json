@@ -1,0 +1,12 @@
+{
+  "name": "Todo-FullStack-App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yashaswinij1999/Todo-FullStack-App.git",
+  "author": "<yashaswinij1999>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
+}
